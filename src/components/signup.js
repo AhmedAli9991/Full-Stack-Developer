@@ -48,7 +48,6 @@ function SignUp(props) {
                 <div className="fliedParent">
                     <label className="textInSideDate">What are you hoping to learn about?</label>
                     <textarea className="textArea" rows="10" cols="30">
-                        Where do you work?
                     </textarea> 
                 </div>
                 
