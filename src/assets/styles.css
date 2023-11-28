@@ -1,0 +1,103 @@
+.loginSignupFormStruct{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 100vh;
+}
+.sidestruc{
+    flex: 2; 
+    background: #23252F;   
+}
+.foremstruc{
+    flex: 1;    
+    background: #2B2D38;
+}
+/* html, body, #reactapp, .App {
+    height: 100vh;
+    min-height: 1058px;
+
+  } */
+.textInSideDate{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textInSideTitle{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 131.25% */
+    width: 60%;}
+.textParagraph{
+    color: #FFF;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+.sideText{
+    margin-left: 12%;
+  margin-top: 12%;
+}
+.fieldLogin{
+    border: 1px solid #464856;
+background: #23252F;
+width: 420px;
+  height: 45px;
+flex-shrink: 0;
+}
+.fieldSignUp{
+    border: 1px solid #464856;
+    background: #23252F;
+    width: 200px;
+    height: 50px;
+        flex-shrink: 0;
+}
+.fliedParent{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.fliedParent2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+.button{
+    padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+    filter: drop-shadow(8px 9px 16px rgba(139, 139, 139, 0.25));
+}
+.buttonText{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+}
+.forgot{
+    color: #00D1FF;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.fieldSigupParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textArea{
+    border: 1px solid #464856;
+background: #23252F;
+}
