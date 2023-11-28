@@ -3,7 +3,7 @@ import "../assets/styles.css"
 function Login() {
   return (
         <div className="sideText">
-            <p className="textParagraph">Join The Event.</p>
+            <p className="textParagraph">Sign In</p>
             <form>
                 <div className="fliedParent">
                     <label className="textInSideDate">First Name</label>

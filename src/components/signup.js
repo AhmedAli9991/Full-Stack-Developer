@@ -7,7 +7,7 @@ function SignUp(props) {
     }
   return (
         <div className="sideText">
-            <p className="textParagraph">Join The Event.</p>
+            <p className="textParagraph">Join The Event</p>
             <form onSubmit={handleSubmit}>
                 <div className="fieldSigupParent">
                 <div className="fliedParent">
